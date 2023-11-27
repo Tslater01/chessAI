@@ -1,4 +1,4 @@
-# Chess AI: C# Bot Submission for Lichess.com Challenge
+# Chess AI: C# Bot Submission for Sebastian Lague Coding Competition  
 This GitHub repository showcases my submission for the Chess AI Challenge, a C# bot designed to compete against human players with high accuracy and efficiency.
 
 ## Project Overview

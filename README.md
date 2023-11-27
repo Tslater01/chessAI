@@ -33,5 +33,5 @@ My **Chess AI** bot is developed in C#. The bot is tailored to challenge and def
 
 ## Notes
 - **Project Duration**: Jun 2023 – Present
-- **Repository Link**: [www.github.com/tslater01/chessAI](www.github.com/tslater01/chessAI)
+- **Repository Link**: [(https://github.com/SebLague/Chess-Challenge)](https://github.com/SebLague/Chess-Challenge)
 - **Accomplishments**: Successfully developed a competitive chess bot demonstrating high accuracy and strategic depth against a wide range of ELO ratings.

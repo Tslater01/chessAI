@@ -4,7 +4,7 @@ using System;
 
 /*
 500 tokens
-FloppyChessEval by Tyler Slater
+By Tyler Slater
 */
 
 public class Evaluator : IEvaluator{

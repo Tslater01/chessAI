@@ -2,13 +2,11 @@
 This GitHub repository showcases my submission for the Chess AI Challenge, a C# bot with restrictive programmatic limitations.
 
 ## Project Overview
-My **Chess AI** bot is developed in C#, utilizing Tensorflow and Docker to enhance its capabilities. The bot is specifically tailored to challenge and defeat human opponents on lichess.com, adhering to strict performance and resource constraints.
+My **Chess AI** bot is developed in C#. The bot is tailored to challenge and defeat human opponents on lichess.com, adhering to strict performance and resource constraints.
 
 ### Key Features of My Bot:
 - **ELO Rating Performance**: Demonstrates high accuracy against players rated 500-1500 ELO and maintains a strong win rate against players in the 1500-2000 ELO bracket.
 - **Efficient Resource Usage**: Operates under a 1024 token code limit, no parallel processing, and capped memory usage.
-- **Advanced AI Strategies**: Employs Tensorflow for intelligent decision-making and strategic play adaptation.
-- **Deployment**: Uses Docker for containerization and Kubernetes for efficient management and scalability.
 
 ### Technical Details:
 - **Development Frameworks**: Built in C#, integrated with Tensorflow for machine learning aspects.
@@ -17,7 +15,7 @@ My **Chess AI** bot is developed in C#, utilizing Tensorflow and Docker to enhan
 
 ## Bot's Strategy and Capabilities
 - **Adaptive Play**: My bot dynamically adjusts its strategies based on the opponent's playstyle, aiming to counter various tactics effectively.
-- **Resource Management**: Despite the restricted environment, the bot maximizes its performance by efficient use of memory and processing power.
+- **Resource Management**: Despite the restricted environment, the bot maximizes its performance by efficiently using memory and processing power.
 - **AI-Powered Decisions**: Integrates machine learning algorithms to predict and counter opponent moves, enhancing its competitive edge.
 
 ## Development Process

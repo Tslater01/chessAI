@@ -4,7 +4,7 @@ using System;
 
 /*
 500 tokens
-By Tyler Slater
+By Tyler Slate
 */
 
 public class Evaluator : IEvaluator{

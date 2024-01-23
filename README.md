@@ -6,7 +6,7 @@ My **Chess AI** bot is developed in C#. The bot is tailored to challenge and def
 
 ### Key Features of My Bot:
 - **ELO Rating Performance**: Demonstrates high accuracy against players rated 500-1500 ELO and maintains a strong win rate against players in the 1500-2000 ELO bracket.
-- **Efficient Resource Usage**: Operates under a 1024 token code limit, no parallel processing, and capped memory usage
+- **Efficient Resource Usage**: Operates under a 1024 token code limit, no parallel processing, and capped memory usage.
 
 ### Technical Details:
 - **Development Frameworks**: Built in C#, integrated with Tensorflow for machine learning aspects.

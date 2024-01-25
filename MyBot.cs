@@ -1,6 +1,6 @@
 using ChessChallenge.API;
 using System.Linq;
-using System
+using System;
 
 /*
 500 tokens

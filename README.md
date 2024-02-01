@@ -16,7 +16,7 @@ My **Chess AI** bot is developed in C#. The bot is tailored to challenge and def
 ## Bot's Strategy and Capabilities
 - **Adaptive Play**: My bot dynamically adjusts its strategies based on the opponent's playstyle, aiming to counter various tactics effectively.
 - **Resource Management**: Despite the restricted environment, the bot maximizes its performance by efficiently using memory and processing power.
-- **AI-Powered Decisions**: Integrates machine learning algorithms to predict and counter opponent moves, enhancing its competitive edge.
+- **AI-Powered Decisions**: Integrates machine learning algorithms to predict and counter opponent moves, enhancing its competitive edge
 
 ## Development Process
 1. **Environment Setup**: Utilized Visual Studio and .NET 6.0 for development.

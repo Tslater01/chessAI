@@ -1,4 +1,4 @@
-# Chess AI: C# Bot Submission for Sebastian Lague Coding Competitio
+# Chess AI: C# Bot Submission for Sebastian Lague Coding Competiti
 This GitHub repository showcases my submission for the Chess AI Challenge, a C# bot with restrictive programmatic limitations.
 
 ## Project Overview

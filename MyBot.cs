@@ -1,5 +1,5 @@
 using ChessChallenge.API;
-using System.Li
+using System.Linq;
 using System;
 
 /*

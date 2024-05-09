@@ -1,4 +1,4 @@
-using ChessChallenge.API;
+using ChessChallenge.API
 using System.Linq;
 using System;
 

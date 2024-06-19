@@ -1,4 +1,4 @@
-using ChessChallenge
+using ChessChallenge.
 using System.Linq;
 using System;
 

@@ -1,37 +1,37 @@
-# Chess AI: C# Bot Submission for Sebastian Lague Coding Competition
-This GitHub repository showcases my submission for the Chess AI Challenge, a C# bot with restrictive programmatic limitations.
+# Chess AI: Single-File C# Bot for Sebastian Lague’s Coding Challenge
 
-## Project Overview:
-My **Chess AI** bot is developed in C#. The bot is tailored to challenge and defeat human opponents on lichess.com, adhering to strict performance and resource constraints.
+This repository features a **compact Chess AI** implemented in a single C# file, **`MyBot.cs`**, originally designed for [Sebastian Lague’s Chess Challenge](https://github.com/SebLague/Chess-Challenge).
 
-### Key Features of My Bot:
-- **ELO Rating Performance**: Demonstrates high accuracy against players rated 500-1500 ELO and maintains a strong win rate against players in the 1500-2000 ELO bracket.
-- **Efficient Resource Usage**: Operates under a 1024 token code limit, no parallel processing, and capped memory usage.
+## Project Overview
 
-### Technical Details:
-- **Development Frameworks**: Built in C#, integrated with Tensorflow for machine learning aspects.
-- **Performance Constraints**: Complies with a stringent 1024 token code limit, avoids parallel processing, and manages within a limited memory footprint.
-- **Deployment Strategies**: Leverages Docker and Kubernetes for reliable and scalable deployment.
+- **Single-file, 500-token limit**: The bot is written in under 500 tokens (as noted in the code comments), adhering to challenge constraints.  
+- **Implements `IEvaluator`**: Uses the `ChessChallenge.API` interface to evaluate board positions for each move.  
+- **Bitboard Techniques**: Relies on bitwise operations for efficient board and piece handling.
 
-## Bot's Strategy and Capabilities
-- **Adaptive Play**: My bot dynamically adjusts its strategies based on the opponent's playstyle, aiming to counter various tactics effectively.
-- **Resource Management**: Despite the restricted environment, the bot maximizes its performance by efficiently using memory and processing power.
-- **AI-Powered Decisions**: Integrates machine learning algorithms to predict and counter opponent moves, enhancing its competitive edge
+## Key Features
+
+- **Custom Evaluation**: Weighs piece values, checks for bishop pairs, counts doubled pawns, identifies open rook files, and evaluates passed pawns.  
+- **Token-Efficient Code**: Strictly optimized to remain within the 500-token limit while still providing comprehensive chess heuristics.  
+- **Strategic Heuristics**: Considers mobility and positional advantages such as phalanx formations and passers.
+
+## Technical Details
+
+- **Language**: C#  
+- **API/Framework**: [ChessChallenge.API](https://github.com/SebLague/Chess-Challenge)  
+- **Code Constraints**: 500-token limit, single file (`MyBot.cs`).  
+- **Evaluation Logic**: Combines piece-square tables, bitboard checks, and specialized heuristics for positional play.
 
 ## Development Process
-1. **Environment Setup**: Utilized Visual Studio and .NET 6.0 for development.
-2. **Coding and Testing**: Extensively coded and tested in the `MyBot.cs` file, ensuring adherence to challenge rules and performance criteria.
-3. **Performance Tuning**: Focused on optimizing the bot for various ELO ranges, ensuring robust performance across different levels of gameplay.
 
-## Challenge Compliance
-- **Submission Criteria**: Met all challenge rules, including code constraints, memory and time limits.
-- **Bot Brain Capacity**: Ensured the bot's code stayed within the 1024 token limit.
+1. **Design & Planning**: Determined which heuristics to include given the token constraint.  
+2. **Implementation**: Wrote `MyBot.cs` to implement `IEvaluator`, carefully managing code size.  
+3. **Testing**: Verified correctness and performance using the Chess Challenge framework.
 
 ## Current Status
-- **ELO Performance Testing**: Actively testing the bot against different ELO-rated players on lichess.com.
-- **Ongoing Improvements**: Continuously refining strategies and algorithms for enhanced performance.
 
-## Notes
-- **Project Duration**: Jun 2023 – Present
-- **Repository Link**: [(https://github.com/SebLague/Chess-Challenge)](https://github.com/SebLague/Chess-Challenge)
-- **Accomplishments**: Successfully developed a competitive chess bot demonstrating high accuracy and strategic depth against a wide range of ELO ratings.
+- The bot runs within the ChessChallenge environment, adhering to the 500-token rule.  
+- Work continues on refining heuristics and improving efficiency within the code limit.
+
+## Repository Link
+
+- **Challenge Reference**: [Sebastian Lague’s Chess Challenge](https://github.com/SebLague/Chess-Challenge)

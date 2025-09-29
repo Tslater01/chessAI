@@ -56,7 +56,7 @@ public int Evaluate(Board board, Timer timer){
                         mg += 4*bonus;
                         eg += 2*bonus;
 
-                        // Passers
+                        // Pawn Passers
                         if(square / 8 < 4 && (0x101010101010101UL << (square & 7) & board.GetPieceBitboard(PieceType.Pawn, side > 1)) == 0){
                             mg += g(2 * square);
                             eg += g(2 * square + 1);
@@ -80,4 +80,5 @@ public int Evaluate(Board board, Timer timer){
         return (mg * gp + eg * (24 - gp)) / (board.IsWhiteToMove ? 24 : -24);
     }
 }
+
 

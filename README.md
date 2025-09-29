@@ -18,7 +18,7 @@ This repository features a **compact Chess AI** implemented in a single C# file,
 
 - **Language**: C#  
 - **API/Framework**: [ChessChallenge.API](https://github.com/SebLague/Chess-Challenge)  
-- **Code Constraints**: 500-token limit, single file (`MyBot.cs`).  
+- **Code Constraints**: 500-token limit, single file (`MyBot.cs`)
 - **Evaluation Logic**: Combines piece-square tables, bitboard checks, and specialized heuristics for positional play.
 
 ## Development Process

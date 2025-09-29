@@ -63,7 +63,7 @@ public int Evaluate(Board board, Timer timer){
                         }
                     }
                     
-                    // Open rook file
+                    // If there is an Open rook file
                     if (piece == 3 && (0x101010101010101UL << (square & 7) & board.GetPieceBitboard(PieceType.Pawn, side > 0)) == 0){
                         mg += 38;
                         eg += 13;
@@ -80,5 +80,6 @@ public int Evaluate(Board board, Timer timer){
         return (mg * gp + eg * (24 - gp)) / (board.IsWhiteToMove ? 24 : -24);
     }
 }
+
 
 

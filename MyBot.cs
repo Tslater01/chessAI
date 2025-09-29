@@ -4,7 +4,7 @@ using System;
 
 /*
 500 tokens
-By Tyler Slater
+By Tyler Slater (tslater8@gatech.edu)
 */
 
 public class Evaluator : IEvaluator{
@@ -80,3 +80,4 @@ public int Evaluate(Board board, Timer timer){
         return (mg * gp + eg * (24 - gp)) / (board.IsWhiteToMove ? 24 : -24);
     }
 }
+

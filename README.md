@@ -1,6 +1,6 @@
 # Chess AI: Single-File C# Bot for Sebastian Lague’s Coding Challenges
 
-This repository features a **compact Chess AI** implemented in a single C# file, **`MyBot.cs`**, originally designed for [Sebastian Lague’s Chess Challenge](https://github.com/SebLague/Chess-Challenge).
+This repository features a **compact Chess AI** implemented in a single C# file, **`MyBot.cs`**, originally designed for [Sebastian Lague’s Chess Challenge](https://github.com/SebLague/Chess-Challenge)
 
 ## Project Overview
 

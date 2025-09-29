@@ -23,7 +23,7 @@ This repository features a **compact Chess AI** implemented in a single C# file,
 
 ## Development Process
 
-1. **Design & Planning**: Determined which heuristics to include given the token constraint.  
+1. **Design & Planning**: Determined which heuristics to include given the token constraint
 2. **Implementation**: Wrote `MyBot.cs` to implement `IEvaluator`, carefully managing code size.  
 3. **Testing**: Verified correctness and performance using the Chess Challenge framework.
 
